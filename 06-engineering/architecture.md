@@ -7,7 +7,7 @@
 - **Shared database:** Nexus reads the same MongoDB database the backend writes (exercises, coach settings). No shared schema. Biggest drift risk.
 - **AWS:** SSM Parameter Store for secrets, S3 for files, SES for email.
 - **Stripe:** checkout plus a signed webhook (signature is checked).
-- **Firebase:** push notifications. Backend sends with a Suffescom-owned Firebase project ("suffescom-mobiles") while web push is set up on IronBlueprint's own project, so web push may silently fail (inferred, needs a test).
+- **Firebase:** push notifications. Backend sends with a Suffescom-created Firebase project (ownership needs a check) ("suffescom-mobiles") while web push is set up on IronBlueprint's own project, so web push may silently fail (inferred, needs a test).
 - **Hawkin Dynamics:** REST integration with scheduled jobs.
 - **Nexus graph:** feedback_processing > evaluation > periodization > exercise_selection > final_nexus > safety_validation (one retry).
 - **Scale:** 74 web routes, about 324 backend endpoints (20 with no auth), 14 Nexus endpoints (none authenticated), 56 data models, 31 features mapped.

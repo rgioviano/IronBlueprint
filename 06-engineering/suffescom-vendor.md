@@ -13,11 +13,15 @@
 
 ## Concerns (Ryne and Chief, 2026-10-17)
 - Basic security errors (secrets in code, open admin endpoint) that review or secret scanning would catch.
-- Firebase admin keys sit on a Suffescom-owned project, so IronBlueprint depends on the vendor for something it should control. Ask: transfer to IronBlueprint's account.
+- Firebase admin keys found in the code sit on a Suffescom-created project ("suffescom-mobiles"). NEEDS A CHECK: confirm whether that project is in an IronBlueprint-owned account or must be moved into one.
 - Agents will not write code until Ryne decides; any future agent code starts small, reversible, human-reviewed.
 
-## TODO
-- TODO: Contract terms, rate, IP ownership, and repo/account ownership (who owns the GitHub orgs, AWS, Firebase, Atlas).
-- TODO: Whether keys were rotated after April 2026 (asked in the pending Slack draft).
+## Account ownership
+- Ryne owns all accounts (GitHub orgs, AWS, Firebase, database); IronBlueprint owns them, not Suffescom (Ryne, 2026-10-17). Exception to verify: the "suffescom-mobiles" Firebase project (see above).
 
-Sources: Forge memory log 2026-08 and 2026-09; Chief chat 2026-10-17 (Linus routine confirmations, Ryne messages t452 to t465); ironblueprint-agent-prep/repo-map.md.
+## TODO
+- TODO: Contract terms, rate, and IP assignment.
+- TODO: Check the "suffescom-mobiles" Firebase project's ownership.
+- Key rotation status: unknown (Ryne, 2026-10-17); Forge and Linus track it (see security-status.md).
+
+Sources: Ryne, 2026-10-17 (account ownership, rotation unknown); Forge memory log 2026-08 and 2026-09; Chief chat 2026-10-17 (Linus routine confirmations, Ryne messages t452 to t465); ironblueprint-agent-prep/repo-map.md.

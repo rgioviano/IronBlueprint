@@ -9,7 +9,7 @@ As of 2026-10-17. Found by Linus (read-only audit), verified by Forge. No secret
 | SEC-6 | Old code history holds live production credentials (database, AWS, email, Stripe live key and webhook secrets, a Google key, a Hawkin key). Removed from current files in April 2026 but still in history. | Open. Rotate all, then scrub history |
 | SEC-7 | Anyone on the internet can create an admin account (an admin route has no login check). | Open. Close today |
 | SEC-4 | The login-signing secret is committed and identical in test and live, and the admin token check is switched off, so admin logins can be forged. | Open |
-| SEC-3 | Firebase admin private keys are committed; two are on a Suffescom-owned project. | Open. Rotate and move to IronBlueprint's project |
+| SEC-3 | Firebase admin private keys are committed; two are on a project created by Suffescom ("suffescom-mobiles"). | Open. Rotate and move to IronBlueprint's project |
 | SEC-2 | The webhook that saves AI programs has no authentication and can overwrite any program. | Open. Add a shared-secret/HMAC check |
 | SEC-1 | An AWS email key pair is hard-coded (likely dead code). | Open. Rotate anyway |
 
@@ -30,7 +30,10 @@ As of 2026-10-17. Found by Linus (read-only audit), verified by Forge. No secret
 ## Communication
 - Forge holds the final Slack draft to Suffescom (#iron-blueprint, IronBlueprint workspace) for Ryne's review. Not sent as of this file.
 
-## TODO
-- TODO: Record date each item is rotated or fixed, and who confirmed it.
+## Rotation status
+- **Unknown.** Ryne does not know whether any of these keys have been rotated (Ryne, 2026-10-17). Forge (PM) and Linus (engineer) track it: record the date each item is rotated or fixed and who confirmed it.
 
-Sources: ironblueprint-agent-prep/suggestions.md (summary table, 2026-10-17); Forge verification messages relayed in Chief chat 2026-10-17; Chief chat 2026-10-17 (Hawkin key, Slack draft owner).
+## TODO
+- TODO: Fill in rotation and fix dates per item (owner: Forge, with Linus verifying).
+
+Sources: Ryne, 2026-10-17 (rotation status unknown); ironblueprint-agent-prep/suggestions.md (summary table, 2026-10-17); Forge verification messages relayed in Chief chat 2026-10-17; Chief chat 2026-10-17 (Hawkin key, Slack draft owner).

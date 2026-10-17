@@ -1,0 +1,16 @@
+{
+  "name": "IB meeting ingest",
+  "prompt": "Tue/Thu 9:30am CT ingest of new IronBlueprint Otter meeting summaries (after the 8–9 standup). Search work Gmail for from:no-reply@otter.ai subject:\"Meeting Summary for IronBluePrint\" newer_than:1d. Also try contact@ if connected. If Otter is connected and ready, search there too (look up current tool schema first; do not authenticate Otter yourself). Prefer Otter for action items when it has the meeting. If no new Meeting Summary exists, stay silent — no group post, no DM, no CoS ping, no filler. If a new summary exists: read the full thread (prefer the larger copy), store durable product/dev context (what shipped, what is broken, what Ryne asked for, staging vs live, vendor names). Then post ONLY to the IronBlueprint group chat (id 0382da49-74aa-4f07-9175-22c6e94e2887) as a short bulleted list for easy reading: date as the lead; bullets for shipped / broken / Ryne asked; then a separate “Ryne to do” section with one bullet per action item assigned to Ryne (or clearly his) from Otter/Gmail. Omit other people’s tasks unless Ryne needs to chase them. Also reply to Chief of Staff (id ad6690d7-be33-4540-ac42-68eb3059c181) with the meeting date and 3 bullets plus Ryne’s action items. Never send email. Never reply to Otter. Never DM Ryne the standup or to-dos — group chat only (he reads them there).",
+  "schedule": "30 9 * * 2,4",
+  "triggerPresentation": {
+    "version": 1,
+    "trigger": {
+      "type": "cron",
+      "schedule": "30 9 * * 2,4"
+    }
+  },
+  "enabled": true,
+  "provenance": "untrusted",
+  "createdAt": 1787837737168,
+  "lastRunAt": 1789483486132
+}

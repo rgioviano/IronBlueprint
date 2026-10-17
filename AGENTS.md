@@ -12,7 +12,6 @@ This is the company brain for **IronBlueprint**, an AI programming engine for sp
 | 05-marketing | Channels, launch research, content rules |
 | 06-engineering | Repo map, architecture, Suffescom vendor, security status (no secret values), agent rulebook summary |
 | 07-legal-trademark | USPTO applications and status |
-| 08-finance | Vendor spend and plan economics we know of |
 | 09-team-bots | Which bots work IronBlueprint |
 | 10-decisions-log | Dated decisions, newest first |
 | skills/knowledge-base-audit | End-of-day audit that proposes brain edits |

@@ -1,5 +1,8 @@
 # Decisions log (newest first)
 
+- 2026-10-17: Launch still planned for Nov 30. (Ryne, 2026-10-17)
+- 2026-10-17: Ryne/IronBlueprint owns all accounts (GitHub orgs, AWS, Firebase, database), not Suffescom; the suffescom-mobiles Firebase project needs a check. (Ryne, 2026-10-17)
+- 2026-10-17: Finances are left out of the brain entirely. (Ryne, 2026-10-17)
 - 2026-10-17: Forge is the IronBlueprint PM and Linus the engineer; Chief routes only. (Ryne)
 - 2026-10-17: Linus runs read-only PR review, monthly security scan, and bug triage; findings go to Chief, Ryne decides what goes to Suffescom. (Ryne yes)
 - 2026-10-17: Messages to Suffescom go through Ryne's IronBlueprint Slack, as drafts. (Ryne)
