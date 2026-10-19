@@ -40,7 +40,7 @@ This is the company brain for **IronBlueprint**, an AI programming engine for sp
 - Updates happen through the `knowledge-base-audit` skill (skills/knowledge-base-audit/SKILL.md): propose a diff, Ryne approves, then apply. Never auto-commit or push.
 - Date every new fact (YYYY-MM-DD). New decisions also go in the decisions log with the date.
 - Prefer editing an existing file over creating a new one. Keep files short; link instead of copying.
-- Skills referenced by name (for example `achieve-mail`) live in Ryne's Grok Bot skill library. Link by name; do not copy whole skills in.
+- Skills referenced by name (for example `ironblueprint-programming-logic`) live in `skills/`. Link by name; do not copy whole skills into other files.
 
 ## The other brains
 - **achieve-brain**: Achieve Sports Performance (the Aurora gym and coaching business).

@@ -16,7 +16,7 @@
 - 2026-09-03: Athlete signup must require all profile fields.
 - 2026-09-01: Brand lock (AI programming engine, not an app; guiding line).
 - 2026-08-27: Phase Five RL gated on about 500 labeled feedback loops; staging is not live-ready.
-- 2026-08-20: No $125 USPTO extension on 99550047.
+- 2026-08-20: No USPTO extension on 99550047.
 - 2026-07-02: Nexus AI Plan v4 accepted by email.
 
 Sources: Forge memory profile.md and logs; Chief chat 2026-10-17.

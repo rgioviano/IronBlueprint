@@ -1,10 +1,9 @@
 # Suffescom (vendor)
 
 - Outside agency that builds Nexus, the web app, and the mobile app. Ryne accepted the Nexus AI Plan v4 by email on 2026-07-02. (Forge log 2026-09-15)
-- People (roles as of Aug 2026): Ajay Chopra (PM, invoices, branching), Pradeep (backend features), Rakesh (mobile APIs), Divesh Soni (program generation, RL), Gaurav Kumar (RL/data/AI phase), Abhishek (UI/mobile), Vishy (program-create API), Prabhjot (QA). (Forge log 2026-08-27)
+- People (roles as of Aug 2026): Ajay Chopra (PM, branching), Pradeep (backend features), Rakesh (mobile APIs), Divesh Soni (program generation, RL), Gaurav Kumar (RL/data/AI phase), Abhishek (UI/mobile), Vishy (program-create API), Prabhjot (QA). (Forge log 2026-08-27)
 - Standups: Tue/Thu mornings CT (Forge memory records both about 7:50am and 8:00 to 9:00am; TODO confirm).
 - Communication: Ryne's IronBlueprint Slack workspace (#iron-blueprint channel; #bugs). The vendor's own Slack is not connected.
-- Invoice on record: Aug 15 to Sep 15 2026, about 188 hours, $3,000. Ryne releases payment himself; bots do not chase.
 
 ## Oversight set up 2026-10-17 (read-only, findings go to Chief, Ryne decides what goes to Suffescom)
 - "IronBlueprint PR review": on new PRs in the three core repos plus a weekday 9am CT sweep (first Mon 10/19). Linus reviews; nothing is posted on GitHub.
@@ -20,7 +19,7 @@
 - Ryne owns all accounts (GitHub orgs, AWS, Firebase, database); IronBlueprint owns them, not Suffescom (Ryne, 2026-10-17). Exception to verify: the "suffescom-mobiles" Firebase project (see above).
 
 ## TODO
-- TODO: Contract terms, rate, and IP assignment.
+- TODO: Contract terms and IP assignment.
 - TODO: Check the "suffescom-mobiles" Firebase project's ownership.
 - Key rotation status: unknown (Ryne, 2026-10-17); Forge and Linus track it (see security-status.md).
 

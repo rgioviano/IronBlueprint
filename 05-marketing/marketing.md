@@ -9,4 +9,4 @@
 - TODO: Launch content calendar (Content Pipeline board in Basecamp is empty).
 - TODO: Waitlist size.
 
-Sources: Maya, Lark, Quill, Canvas, Echo profile.json; Maya memory profile.md (2026-09-08); /workspace file list (ironblueprint-x-launch-research.md, achieve-ib-organic-social-playbook-2026.md, x-growth-research-2026-10.md); ib-basecamp-growth-beta-plan.md.
+Sources: Maya, Lark, Quill, Canvas, Echo role notes; ironblueprint-x-launch-research.md; achieve-ib-organic-social-playbook-2026.md; x-growth-research-2026-10.md; ib-basecamp-growth-beta-plan.md.

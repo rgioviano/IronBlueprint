@@ -1,13 +1,13 @@
 ---
 name: Mozi sales frameworks
 description: >-
-  Use when drafting Achieve or IronBlueprint sales calls, closes, pricing
+  Use when drafting IronBlueprint sales calls, closes, pricing
   diagnostics, partner offers, pre-call VSLs, or nurture that sits next to
-  3-7-30 — Mozi standing frameworks including pre-call leverage.
+  3-7-30. Mozi standing frameworks including pre-call leverage.
 ---
-# Mozi frameworks (Achieve + IronBlueprint)
+# Mozi frameworks (IronBlueprint)
 
-Standing sales defaults locked 2026-09-08 alongside [Sales nurture 3-7-30](sand-workflow:sales-nurture-3-7-30). Drafts only until Ryne reviews. SCDD Instant Form / E1–E4 product locks still win on those sends.
+Standing sales defaults locked 2026-09-08 alongside sales nurture 3-7-30. Drafts only until Ryne reviews.
 
 ## Sales owns / co-owns
 
@@ -61,7 +61,7 @@ Long calls, too many touches to close, and price-only comparison = **low leverag
 2. Why it’s wrong
 3. What’s right
 4. Similar-avatar proof  
-Use on DIY gym / spreadsheet objections (Achieve parents; IronBlueprint coaches). Same skeleton feeds VSL objection blocks.
+Use on spreadsheet objections from IronBlueprint coaches. Same skeleton feeds VSL objection blocks.
 
 ### 7–9. Marketing-primary (support when asked)
 Checkbox offer, pain-hook ads, branded search. Sales supports when pulled in.
@@ -71,13 +71,11 @@ Help capture worst-moment clips at peak emotion for Marketing to use.
 
 ### 10. Partner Giveaway Offer (Sales / BD)
 Give partners a sellable free product **they keep 100%**. You upsell the end customer.
-- Achieve: chiro / PT / schools
-- IronBlueprint: coaches / agencies
+- IronBlueprint: coaches and agencies.
 
-## Pricing / unit economics notes
-- Middle Pricing
-- Annual Renewal Fee (Achieve memberships)
-- LTV:CAC **9–12:1** guardrail for services
+## Pricing notes
+- Do not invent prices. The live tiers are in `04-sales-launch/launch.md`.
+- Company finances (invoices, burn, vendor cost) are not in this repo.
 
 ## Do not invent
 Prices, close rates, LTV/CAC, or partner offers Ryne hasn’t stated. Flag missing facts outside the draft.

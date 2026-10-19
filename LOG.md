@@ -2,6 +2,11 @@
 
 Dated changes to this repo and to the fleet facts it depends on. Newest first. One line per change. Business decisions go in `10-decisions-log/decisions.md`; this file tracks the repo itself.
 
+## 2026-10-19
+- Removed the Suffescom invoice (hours and amount) and other company finance figures (vendor rate, USPTO fee amount, model spend figures, "spend is high"). Public pricing tiers stay in `04-sales-launch/launch.md`.
+- Removed Achieve-only material: Max, Maya, Quill, and Lark memory and reference files (including both $100M Leads PDFs), the SEO bot folder, `achieve-mail`, `achieve-writing-style`, and the Achieve Minute template. Short IronBlueprint instructions remain for Max, Maya, Quill, and Lark.
+- Scrubbed email addresses and phone numbers from the tree.
+
 ## 2026-10-17
 - Repo `rgioviano/IronBlueprint` created by Ryne (private, personal account). First content opened as PR #1 from branch `brain-v1`. Not merged.
 - Scope set to "everything included" (Ryne): all IB skills and every IB bot's instructions, memory, reference and routine files. Secret values are always redacted; security findings carry no values or prefixes.

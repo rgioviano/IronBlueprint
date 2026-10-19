@@ -114,7 +114,7 @@ Smart Bidding ~**7–14 days** / often ≥~30 conversions to evaluate (often ~50
 
 | Business | Judge on | Platform opt |
 |---|---|---|
-| Local lead gen (e.g. gym Instant Form → booked eval → enroll) | Cost per booked / enroll; lead→booked % | Meta Leads; Maximize leads until CAPI, then qualified leads |
+| Local lead gen | Cost per booked outcome | Meta Leads; Maximize leads until CAPI, then qualified leads |
 | Purchase / SaaS | Purchase ROAS; CAC vs margin | Sales / Maximize conversion value or tROAS |
 
 Never invent account numbers. Monthly knowledge refreshes must re-check metrics decision rules, not only product UI changes.
@@ -124,4 +124,4 @@ Never invent account numbers. Monthly knowledge refreshes must re-check metrics 
 2. Check Learning status before any kill/scale.
 3. Decide with business metrics; use diagnostics only to explain.
 4. Label advice [Documented] vs [Opinion].
-5. For Achieve/IB specifics, also read current agent memory (quality-first Meta, unit econ, no spend without yes).
+5. For IronBlueprint, also read current agent memory. Do not spend without Ryne's yes. Do not invent account numbers.

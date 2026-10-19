@@ -68,12 +68,3 @@ Full sourced research lives beside this file:
 - [ ] At most one A/B variable this month, judged by clicks/replies.
 **Legal and minors**
 - [ ] Opt-out works; address present; no minor named/shown without written permission; under-13 contacts are parent emails only.
-
-## Business-specific notes (Achieve Sports Performance)
-- Signature (Ryne 2026-10-14): "Thanks," then "Ryne Gioviano, MSEd, CSCS" then "Achieve Sports Performance & Personal Training".
-- Footer (Ryne 2026-10-14): "Achieve Sports Performance & Personal Training", street address, link to www.achievesportsperformance.com, unsubscribe.
-- Template: every Achieve Minute starts from templates/achieve-minute.html (copy also at /workspace/newsletter/Achieve-Minute-TEMPLATE.html). Same hosted header image, layout, colors, signature, P.S., Sources and footer; only fill the {{placeholders}}. Do not redesign per issue.
-- Send time: primary Tuesday 7:30 AM CT, test Sunday 7:00 PM CT (4 weeks each). Optional Thursday evening for meet/game-weekend issues. Own data (2023 to 2026): morning and Sunday sends had the best median click rates; readers show a second bump around 10 to 11 PM CT; real (non-Apple) opens about 16% to 31%, clicks about 0.6% to 1.6%. Sending domain achieve-personaltraining.com is already authenticated (DKIM, SPF, DMARC p=none).
-- No prices in any email. No em dashes anywhere. Never use the word "complimentary"; call it an "evaluation" or "20-minute screen."
-- Write to the parent first, plus one "Tell your athlete: ..." line.
-- The P.S. is the only ask; it rotates with the season (referral P.S. only once a real reward is supplied). Owner approves every draft before it sends.

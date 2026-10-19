@@ -3,7 +3,7 @@
 ## USPTO applications
 | Serial | Mark | Owner of record | Status in sources |
 |---|---|---|---|
-| 99550047 | IRON BLUEPRINT (two words) | Ryne Gioviano individually | **Suspended.** The USPTO letter dated 2026-10-07 is a suspension (examination on hold), not an Office Action, and has no response deadline. History: second non-final office action 2026-07-02 (owner-name change denied; disclaimer and Class 042 amendment accepted); Ryne declined the $125 extension |
+| 99550047 | IRON BLUEPRINT (two words) | Ryne Gioviano individually | **Suspended.** The USPTO letter dated 2026-10-07 is a suspension (examination on hold), not an Office Action, and has no response deadline. History: second non-final office action 2026-07-02 (owner-name change denied; disclaimer and Class 042 amendment accepted); Ryne declined an extension |
 | 99383569 | IRONBLUEPRINT (one word) | Iron Blueprint LLC | Response entered 2026-05-06; with examiner; no open deadline in sources |
 
 - Examiner: Asmat A. Khan, Law Office 114 (contact details in USPTO records; not copied here).

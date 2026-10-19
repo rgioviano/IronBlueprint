@@ -1,12 +1,12 @@
 ---
 name: Sales nurture 3-7-30
 description: >-
-  Use when drafting Achieve or IronBlueprint sales email, Numa, or lead nurture
-  sequences — value sequence, not chase.
+  Use when drafting IronBlueprint sales email or lead nurture
+  sequences. Value sequence, not chase.
 ---
 # Sales nurture: 3-7-30 Method
 
-Standing guidance for Achieve Sports Performance and IronBlueprint sales follow-up / email / Numa nurture (Sales owns; Marketing owns paid nurture only). Drafts only until Ryne reviews.
+Standing guidance for IronBlueprint sales follow-up and email nurture (Sales owns; Marketing owns paid nurture only). Drafts only until Ryne reviews.
 
 ## Mindset
 
@@ -31,9 +31,7 @@ Two touches/week. Alternate success stories and industry insights. Each touch mu
 
 Make them think “this is good even if I don’t buy.”
 
-## How it fits locked product copy
+## How it fits
 
-- Apply this frame when writing SCDD / email / lead / Numa nurture sequences Sales drafts.
-- Where a product sequence is already locked (e.g. SCDD Instant Form first text, SCDD E1–E4 bodies, no stacked eval asks), keep that product copy. Use 3-7-30 for the longer nurture around it or for new sequences that aren’t already locked.
-- Gym voice: `Hi FirstName,` / Numa `Hi, FirstName.` — see `achieve-writing-style`.
-- Do not invent prices, names, or availability.
+- Use this frame for IronBlueprint lead nurture that is not already locked.
+- Do not invent prices, names, or availability. No prices in ads or inbound replies.

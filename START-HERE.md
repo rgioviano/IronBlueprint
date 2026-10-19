@@ -28,8 +28,8 @@ Read this page first. It tells you what is in this repo and which one file answe
 | `07-legal-trademark/` | USPTO applications and status |
 | `09-team-bots/` | Which bots work IronBlueprint |
 | `10-decisions-log/` | Business decisions, dated, newest first |
-| `bots/<name>/` | Each IB bot: `INSTRUCTIONS.md` plus memory, reference and routine files (secrets removed). Bots: forge, linus, max, maya, quill, lark, canvas, seo-aeo-auditor, ironblueprint (the room). `herald` and `lingxi` are retired and kept for history only |
-| `skills/<slug>/SKILL.md` | 14 skills (index in README.md) |
+| `bots/<name>/` | Each IB bot: `INSTRUCTIONS.md` plus memory, reference and routine files (secrets removed). Bots: forge, linus, max, maya, quill, lark, canvas, ironblueprint (the room). `herald` and `lingxi` are retired and kept for history only. Achieve-only bot memory is not in this repo |
+| `skills/<slug>/SKILL.md` | 12 skills (index in README.md) |
 
 There is no `08-` folder on purpose: finances are excluded (see rules).
 

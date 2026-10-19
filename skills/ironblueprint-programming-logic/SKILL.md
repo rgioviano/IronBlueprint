@@ -9,7 +9,7 @@ description: >-
 
 When Ryne asks Strength Coach (or any bot) to **design or redesign a program**, make decisions the way the IronBlueprint Nexus engine does in code — not generic S&C textbooks, and not TrainHeroic house style alone.
 
-Source of truth: `IronBluePrint/nexus-ai-agent` local checkout (`~/Projects/IronBlueprint`), code-reviewed 2026-09-04. Prefer code over README. For Achieve TrainHeroic look/feel (naming, weeks, SMR language), also use [Ryne programming style](sand-workflow:ryne-programming-style) — this skill owns **logic and constraints**.
+Source of truth: `IronBluePrint/nexus-ai-agent` local checkout (`~/Projects/IronBlueprint`), code-reviewed 2026-09-04. Prefer code over README. This skill owns logic and constraints.
 
 ## 1. Classify the athlete first
 Decide before picking exercises:
