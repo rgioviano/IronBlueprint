@@ -4,15 +4,19 @@ Full fleet: personal-brain/08-bot-fleet/fleet.md.
 
 | Bot | Role |
 |---|---|
-| Forge | IronBlueprint PM. Owns the work, Suffescom messages (drafts), verification of engineering findings, meeting ingest and Web & Mobile Tasks routines, posts bugs and hands them to Linus |
+| Blue (formerly Forge) | IronBlueprint PM. Owns the work, Suffescom messages (drafts), verification of engineering findings, meeting ingest and Web & Mobile Tasks routines, IB 500 tally and nightly pace post, posts bugs and hands them to Linus. Lead for Simon. Max and Maya report to Blue for IB work (2026-10-21) |
 | Linus | Lead engineer. Read-only code review, PR review routine, monthly security scan, bug triage with proposed fixes. Also owns local LLMs on the DGX Spark |
-| Max | IronBlueprint sales. Achieve sales files are not in this repo |
-| Maya, Lark, Quill, Canvas | IronBlueprint marketing strategy, paid ads, copy, design. Achieve ad plans and client files are not in this repo |
+| Simon | Black-box QA. Tests the live coach app (and staging or TestFlight when Blue says), writes repro steps, re-tests fixes, pass/fail before ship, weekly scoreboard to Blue. Never reads or changes code, never files bugs or posts, test accounts only |
+| Max | IronBlueprint sales. Reports to Blue for IB work. Achieve sales files are not in this repo |
+| Maya, Lark, Quill, Canvas | IronBlueprint marketing strategy, paid ads, copy, design. Maya reports to Blue for IB work. Achieve ad plans and client files are not in this repo |
 | Scout | Research outside S&C |
+| Splice | Video editor for IB edits on request. Never posts |
 | Penny | IB demo prep cards from the morning brief |
-| Chief of Staff | Routes and checks; does not do the IB work itself |
+| Chief of Staff | Routes and checks; does not do the IB work itself. Steps in on escalations or cross-brand conflicts |
 
+- Name warning: before 2026-10-19 "Forge" meant the IronBlueprint PM (now Blue). Today Forge is Ryne's personal nutrition coach and does no IB work. The `bots/forge/` folder in this repo is the PM (Blue).
+- HQ room (created 2026-10-20): Red and Blue.
 - Lingxi (an older engineering-supervisor template) never ran its PR checks; Linus replaced that lane.
 - Cloud agents and one-offs get no room seat.
 
-Sources: TEAM.md; profile.json descriptions; Chief chat 2026-10-17 (t456 to t470).
+Sources: Chief TEAM.md (updated 2026-10-21); `WS/fleet/IDS.md` (2026-10-21); Simon and Splice profile.json; Chief chat 2026-10-17 (t456 to t470).

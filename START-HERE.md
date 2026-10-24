@@ -28,7 +28,7 @@ Read this page first. It tells you what is in this repo and which one file answe
 | `07-legal-trademark/` | USPTO applications and status |
 | `09-team-bots/` | Which bots work IronBlueprint |
 | `10-decisions-log/` | Business decisions, dated, newest first |
-| `bots/<name>/` | Each IB bot: `INSTRUCTIONS.md` plus memory, reference and routine files (secrets removed). Bots: forge, linus, max, maya, quill, lark, canvas, ironblueprint (the room). `herald` and `lingxi` are retired and kept for history only. Achieve-only bot memory is not in this repo |
+| `bots/<name>/` | Each IB bot: `INSTRUCTIONS.md` plus memory, reference and routine files (secrets removed). Bots: forge (the IB PM, now named Blue), linus, max, maya, quill, lark, canvas, ironblueprint (the room). `herald` and `lingxi` are retired and kept for history only. Achieve-only bot memory is not in this repo |
 | `skills/<slug>/SKILL.md` | 12 skills (index in README.md) |
 
 There is no `08-` folder on purpose: finances are excluded (see rules).
@@ -45,14 +45,15 @@ There is no `08-` folder on purpose: finances are excluded (see rules).
 | What security problems are open? | `06-engineering/security-status.md` |
 | How do we work with Suffescom? | `06-engineering/suffescom-vendor.md` |
 | Trademark status | `07-legal-trademark/trademarks.md` |
-| Who owns this work? | `09-team-bots/bots.md`, then `bots/forge/` or `bots/linus/` |
+| Who owns this work? | `09-team-bots/bots.md`, then `bots/forge/` (Blue) or `bots/linus/` |
 | Was this already decided? | `10-decisions-log/decisions.md` |
 | What is happening right now? | `NOW.md` |
 | Basecamp, Slack channel and sheet IDs | `IDS.md` lives in the Personal repo at `08-bot-fleet/IDS.md` |
 
 ## Roles
-- **Forge**: IronBlueprint PM and verifier. Drafts messages to Suffescom for Ryne. Read-only on code.
+- **Blue** (named Forge before 2026-10-19): IronBlueprint PM and verifier. Drafts messages to Suffescom for Ryne. Read-only on code. Max and Maya report through Blue for IB work (2026-10-21).
 - **Linus**: lead engineer. Reviews Suffescom PRs, traces bugs, proposes fixes in plain English. **Read-only**: no commits, pushes, PRs or coding agents until Ryne lifts it.
+- **Simon**: black-box QA on the live app (pass/fail before ship). Never touches code. Reports to Blue.
 - **Suffescom**: outside agency. Does all coding.
 - **Chief**: routes work and checks results. Does not do the work.
 
