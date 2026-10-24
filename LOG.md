@@ -2,6 +2,15 @@
 
 Dated changes to this repo and to the fleet facts it depends on. Newest first. One line per change. Business decisions go in `10-decisions-log/decisions.md`; this file tracks the repo itself.
 
+## 2026-10-24
+- Weekly brain audit (first run). Covered 2026-10-17 to 2026-10-24. Opened as a PR into `brain-v1`. Not merged.
+- Renamed the IronBlueprint PM from Forge to Blue in AGENTS.md, START-HERE.md, NOW.md, `04-sales-launch/launch.md`, `09-team-bots/bots.md` and the decisions log, with a name warning (Forge is now Ryne's nutrition coach). The `bots/forge/` folder name is unchanged.
+- Added Simon (black-box QA, reports to Blue) to AGENTS.md, START-HERE.md, NOW.md, launch.md and bots.md.
+- NOW.md: the 2026-10-17 "over storage" blocker is replaced with the resolved outage summary (about 66 hours, MongoDB storage cap) and its open prevention items; added the 2026-10-19 launch-readiness audit summary, the IB 500 recount script, and the Max and Maya reporting line.
+- launch.md: Nov 30 launch reconfirmed (Nov 1 is outdated); Simon's launch acceptance pass.
+- AGENTS.md house rule 3: added the Achieve lead-email pricing line exception so all three brains match.
+- Decisions log: added 2026-10-19 to 2026-10-22 entries and an open question about Simon's test login.
+
 ## 2026-10-19
 - Removed the Suffescom invoice (hours and amount) and other company finance figures (vendor rate, USPTO fee amount, model spend figures, "spend is high"). Public pricing tiers stay in `04-sales-launch/launch.md`.
 - Removed Achieve-only material: Max, Maya, Quill, and Lark memory and reference files (including both $100M Leads PDFs), the SEO bot folder, `achieve-mail`, `achieve-writing-style`, and the Achieve Minute template. Short IronBlueprint instructions remain for Max, Maya, Quill, and Lark.
@@ -22,4 +31,4 @@ Dated changes to this repo and to the fleet facts it depends on. Newest first. O
 - Added START-HERE.md, NOW.md and LOG.md (this file) so any AI reads one or two pages instead of the whole repo.
 - Weekly brain repo update routine set: Saturdays about 3:00am CT, opens PRs, never merges. First run 2026-10-24.
 
-Sources: Chief chat 2026-10-17; Forge message to Chief 2026-10-17; Chief TEAM.md change log; `WS/brains-push/ironblueprint-DELETIONS.txt`; `WS/fleet/IDS.md`.
+Sources: Chief TEAM.md and IDS.md (2026-10-21); shared memory 2026-10-22; `WS/ib-outage-log.md`; `WS/ib-launch-readiness-2026-10-19.md`; Simon profile.json; Chief chat 2026-10-17; Forge message to Chief 2026-10-17; `WS/brains-push/ironblueprint-DELETIONS.txt`; `WS/fleet/IDS.md`.
