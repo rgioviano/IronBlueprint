@@ -2,6 +2,12 @@
 
 Dated changes to this repo and to the fleet facts it depends on. Newest first. One line per change. Business decisions go in `10-decisions-log/decisions.md`; this file tracks the repo itself.
 
+## 2026-10-31
+- Weekly brain audit (second run). Covered 2026-10-24 to 2026-10-31. Branch `brain-audit-2026-10-31` is built on `brain-v1`, so it also carries the 2026-10-24 audit commit, which reached `brain-v1` (PR #2) after PR #1 had already merged into `main`. Opened as a PR into `main`. Not merged.
+- NOW.md: IB 500 goal hit (500 on 2026-10-29); project Pages for Blue; manual bug sweeps; Spark transcripts; Basecamp QA to-do rule; 2026-10-27 standup summary.
+- `09-team-bots/bots.md`: Blue's new duties and Pages; Chief router-only.
+- `10-decisions-log/decisions.md`: 2026-10-27 and 2026-10-30 decisions; open questions updated.
+
 ## 2026-10-24
 - Weekly brain audit (first run). Covered 2026-10-17 to 2026-10-24. Opened as a PR into `brain-v1`. Not merged.
 - Renamed the IronBlueprint PM from Forge to Blue in AGENTS.md, START-HERE.md, NOW.md, `04-sales-launch/launch.md`, `09-team-bots/bots.md` and the decisions log, with a name warning (Forge is now Ryne's nutrition coach). The `bots/forge/` folder name is unchanged.
