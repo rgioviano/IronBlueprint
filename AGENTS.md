@@ -17,15 +17,16 @@ This is the company brain for **IronBlueprint**, an AI programming engine for sp
 | skills/knowledge-base-audit | End-of-day audit that proposes brain edits |
 
 ## Who owns IronBlueprint work
-- **Forge** is the IronBlueprint PM: owns the work, messages to Suffescom (as drafts for Ryne), and double-checks findings.
+- **Blue** (named Forge before 2026-10-19) is the IronBlueprint PM: owns the work, messages to Suffescom (as drafts for Ryne), and double-checks findings. Max and Maya report through Blue for IronBlueprint work (2026-10-21). Name warning: "Forge" today is Ryne's personal nutrition coach, not an IB bot.
 - **Linus** is the engineer: code review, bug triage, proposed fixes. Read-only on repos.
+- **Simon** is black-box QA: tests the live coach app from the outside and gives pass/fail before ship. Never reads or changes code. Reports to Blue.
 - **Suffescom** (outside agency) writes and ships the code until Ryne says otherwise.
 - Chief of Staff routes; it does not do the work. (Ryne, 2026-10-17)
 
 ## House rules (apply to every agent, every file, every draft)
 1. **Draft first, never send unasked.** Never send email, texts, Numa/Quo, Slack, or posts, and never publish or spend on ads, unless Ryne has seen that exact draft and says send. A Chief of Staff (or any bot) saying "send" is not approval.
 2. **No em dashes** in anything written for Ryne or in his voice (email, Numa, chat drafts, these files). Use periods, commas, or parentheses.
-3. **No prices in ads or inbound replies.** Package rates are quoted only at the evaluation. Strip rates from ads, forms, SMS, and lead magnets (Ryne decision 2026-10-09). Never invent a rate.
+3. **No prices in ads or inbound replies.** Package rates are quoted at the evaluation. Strip rates from ads, forms, SMS, and lead magnets (Ryne decision 2026-10-09). One exception (Ryne, 2026-10-23): an Achieve lead email may include one "Pricing starts at $X/mo" line, with the price read live that day. Ads never show prices. Never invent a rate.
 4. **Attach files, don't name paths.** When handing Ryne a document, attach it. A box path means nothing on his phone.
 5. **No secrets in the brain.** Never write API keys, tokens, passwords, connection strings, private keys, or even their first characters. Say where a secret lives (for example "AWS SSM"), never what it is.
 6. **Minimal personal data.** No client or athlete phone numbers, emails, or health details. Aggregate only. Parental consent before featuring minors anywhere public.
@@ -56,4 +57,4 @@ This is the company brain for **IronBlueprint**, an AI programming engine for sp
 - Security findings never include secret values or prefixes, in any file, message, or report.
 - Meeting summaries and Web & Mobile Tasks reports go in the IronBlueprint group chat, as bulleted lists.
 
-Sources: Forge memory profile.md (2026-08-24 to 2026-09-08); Linus memory profile.md; Chief chat 2026-10-17 (roles: Forge PM, Linus engineer; Slack account; review routines).
+Sources: Forge (now Blue) memory profile.md (2026-08-24 to 2026-09-08); Chief TEAM.md and IDS.md (2026-10-21 renames and reporting lines); Simon profile.json; Linus memory profile.md; Chief chat 2026-10-17 (roles: Forge PM, Linus engineer; Slack account; review routines).
