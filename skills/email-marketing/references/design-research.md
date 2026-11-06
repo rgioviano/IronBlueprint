@@ -1,4 +1,4 @@
-# Email design research
+# Email Design Research for The Achieve Minute
 
 Researched 2026-10-14. Every figure below was read in the linked source. Where a source gave no number, none is given here.
 
@@ -73,3 +73,44 @@ Computed contrast (WCAG relative luminance formula, run 2026-10-14):
 - Takeaway: light design, mostly live text, few images. That is exactly "simple, professional."
 
 ---
+
+## Applied to The Achieve Minute
+
+**Structure (single column, top to bottom)**
+1. Preview text (40 to 90 chars, the tip's payoff).
+2. Header image, Achieve-Minute-Header.png, displayed 600x150 (file is 1200x300, so 2x for retina).
+3. Hi *|FNAME|*, plus a 1 to 2 sentence intro in live text.
+4. Tip card image, 1080x1350, displayed 600x750 (or 480 wide centered if it feels tall).
+5. The same tip repeated in live text below the card (3 short lines plus the one rule), so it works with images off and for screen readers.
+6. Optional single bulletproof button, only if there is a link.
+7. Thanks, Ryne signature.
+8. P.S. plug.
+9. Sources block.
+10. Mailchimp footer (address, unsubscribe).
+
+**Specs**
+- Container 600px max, fluid 100% under 600px. Background #ffffff.
+- Side padding 24px desktop, 16px mobile. 24px between blocks.
+- Body: `font-family: Helvetica, Arial, sans-serif;` 16px, line-height 1.5 (24px), color #222222 (15.91:1).
+- Headings in live text (if any): 22 to 24px bold, #111111, line-height 1.25.
+- Links: #c82536 and underlined (5.56:1 passes AA; underline satisfies use-of-color).
+- Button: #c82536 fill, #ffffff 16px bold text (5.56:1), min 44px tall, padding 14px 28px, radius 4px, HTML not image.
+- P.S.: 16px, "P.S." in bold.
+- Sources: 12px, line-height 1.5, #666666 (5.74:1), top border 1px #e5e5e5, padding-top 16px. Mailchimp's 14px minimum is for body text; this is small reference text, raise to 13 to 14px if you want strict.
+- Images: always set width/height attributes and `style="display:block;max-width:100%;height:auto;"`, hosted in Mailchimp.
+
+**Alt text examples**
+- Header: `The Achieve Minute from Achieve Sports Performance`
+- Card: `Game day fueling: real breakfast 3 to 4 hours out, small snack 60 to 90 minutes out, carbs plus protein within an hour after. One rule: nothing new on game day.` (under 150 chars is ideal; trim if Mailchimp cuts it)
+
+**Dark mode**
+- Header and card are white-background PNGs, so in dark mode they show as bright white rectangles. That is acceptable and reads as a "card." Do not make them transparent: the charcoal logo text would vanish on dark backgrounds.
+- If we ever use a transparent logo, add a subtle white stroke or glow per Litmus, or keep it on a white plate.
+- The red #c82536 drops to 3.37:1 on near-black, so if a client inverts the body, red links are only large-text safe. Keep links underlined so they stay identifiable.
+- Mailchimp drag-and-drop does not need custom dark-mode code. Test in Gmail app and Apple Mail dark mode before the first send.
+
+**Size**
+- Two images plus short text sits well under Gmail's 102 KB clip limit. Avoid pasting from Google Docs/Word (adds code bloat).
+
+**Do not**
+- Put the tip only in the image. Use "click here." Add more than 2 images. Use Inter as live text.
