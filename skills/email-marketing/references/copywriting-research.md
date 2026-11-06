@@ -1,6 +1,6 @@
-# Email copywriting research brief
+# Email Copywriting Research Brief, applied to The Achieve Minute
 
-Prepared 2026-10-14. General research for IronBlueprint marketing email. Achieve Minute notes are not in this repo.
+Prepared for Ryne Gioviano, Achieve Sports Performance, Aurora IL. Date: October 14, 2026.
 Scope: subject lines, preview text, opening hooks, structure, length, story vs tips, CTA and P.S., plain text vs designed, voice for parents vs athletes, and driving replies. Every number below names its source. Anything that could not be verified is marked **UNVERIFIED** and is not used as a rule.
 
 ---
@@ -57,6 +57,100 @@ Scope: subject lines, preview text, opening hooks, structure, length, story vs t
 - Local master-copy file: make the action physical and small ("Reply YES").
 - Replies also help: a reply is a real engagement signal that MPP cannot fake. That is a reasoned point, not a sourced figure.
 
+### 1.9 Voice for parents vs athletes
+- Schwartz awareness levels (above) and Halbert's call-out rule: write to one reader. For this list that reader is the parent.
+- Parent wants: is this safe, is it worth the time, will it help my kid's skill and confidence. Athlete wants: what do I do, and how will I feel it in the water or on the field. Write the tip to the parent and include one line the parent can hand to the athlete ("Tell your swimmer: ...").
+- Hormozi notes: truth over costume. No hype words.
+
+---
+
+## Part 2. Applied to The Achieve Minute
+
+### 2.1 House rules (locked)
+- Mailchimp, white background, Helvetica body.
+- Greeting: Hi *|FNAME|*,
+- One tip per issue. Mostly for parents, athletes second.
+- No prices. No dashes used as long pauses; use periods, commas, and parentheses.
+- Call the intake a "20-minute screen" or an "evaluation." Never use the banned intake words or the banned hype words in the brand lock.
+- Youth copy covers skill, confidence, and readiness only. No body talk, no timelines, no cure claims.
+- Name Aurora in every issue.
+- Nothing invented: no names, schools, times, results, or rewards without Ryne.
+- The closing line signs off. The P.S. is the single ask and rotates with the calendar. Issue 1 carries the dryland P.S.
+- Sign-off: Thanks, Ryne Gioviano, CSCS, Achieve Sports Performance
+- Sources in small gray Helvetica under the signature.
+
+### 2.2 Subject line and preview text
+- Write the subject as a plain headline for a parent: name the topic and the athlete. Examples of the form (topics must match the real tip): "What your swimmer should drink on meet day" or "How to warm up between events." Avoid teasers the first line does not pay off.
+- Always fill Mailchimp's preview text field. Use it to finish the subject's thought, for example "One thing to pack in the bag before Saturday." Never leave it blank, or inboxes show "Hi Name,".
+- Write 5 or more subject options per issue and pick one. If Mailchimp A/B testing is used, judge the winner on clicks or replies, not opens (Litmus MPP data).
+
+### 2.3 Body skeleton (about 150 to 250 words)
+1. Hi *|FNAME|*,
+2. Hook: one or two sentences that pick up the subject line. A real moment from the gym in Aurora, or the plain problem the parent sees.
+3. The tip: what to do, when, and how much, in plain sentences.
+4. Why it works: one or two sentences, tied to a cited source.
+5. The athlete line: "Tell your athlete: ..." in one sentence.
+6. Sign-off sentence (no ask), then: Thanks, Ryne Gioviano, CSCS, Achieve Sports Performance
+7. P.S. (the only ask)
+8. Sources, small gray Helvetica.
+
+### 2.4 P.S. rotation
+- Issue 1 (dryland, ahead of the November swimmer push starting Nov 14): P.S. High school swim season is wrapping up. Athletes who start dryland now get the most off-season weeks before club season. Reply "dryland" and we'll set up their evaluation.
+- Referral P.S.: runs only once Ryne supplies the real reward. Draft: P.S. Know a teammate who'd want this plan? Forward this email. If they sign up, you both get [reward from Ryne].
+- Future slots (each needs Ryne's real dates and details): tryout or season-start readiness, a named program block with its real start date.
+- Every P.S. should give a true reason for now and a one-word reply.
+
+### 2.5 Measuring an issue
+- Primary: replies to the P.S. keyword and evaluations booked from them.
+- Secondary: clicks and unsubscribes (Mailchimp all-user unsubscribe benchmark is 0.22%, Mailchimp page above).
+- Ignore open rate as a success measure because of MPP (Litmus).
+
+---
+
+## Part 3. One-page checklist for each issue
+
+**Before writing**
+- [ ] One tip only, useful to a parent this month. Picked to fit the calendar.
+- [ ] Source for the tip found and named (real, with link if possible).
+- [ ] Any story, name, school, time, or result confirmed by Ryne. Otherwise leave it out.
+- [ ] P.S. for this issue chosen from the rotation, with real dates and details.
+
+**Subject and preview**
+- [ ] Subject is a plain headline naming the topic for a parent. No teaser the body does not pay off.
+- [ ] 5 or more subject options written, one picked.
+- [ ] Preview text field filled and finishes the subject's thought.
+
+**Body**
+- [ ] Opens "Hi *|FNAME|*,"
+- [ ] First sentence continues the subject line.
+- [ ] Aurora named.
+- [ ] Tip says what, when, and how much in full plain sentences.
+- [ ] One "Tell your athlete" line.
+- [ ] About 150 to 250 words. Readable by a skimmer from first and last lines.
+- [ ] Closing sentence signs off with no ask.
+- [ ] Signature exactly: Thanks, Ryne Gioviano, CSCS, Achieve Sports Performance
+
+**P.S.**
+- [ ] It is the only ask in the email.
+- [ ] True reason for now plus a one-word reply.
+- [ ] Intake called "20-minute screen" or "evaluation."
+
+**House-rule sweep**
+- [ ] No prices.
+- [ ] No long-dash punctuation anywhere.
+- [ ] No banned intake words and no banned hype words from the brand lock.
+- [ ] Youth copy limited to skill, confidence, and readiness.
+- [ ] Nothing invented. Every number has a named source.
+
+**Format**
+- [ ] Mailchimp, white background, Helvetica, one image at most.
+- [ ] Sources in small gray Helvetica under the signature.
+- [ ] Test send to a phone and to Gmail; check that the preview line reads well.
+
+**After sending**
+- [ ] Log replies, booked evaluations, clicks, and unsubscribes. Do not judge by opens.
+
+---
 
 ## Sources
 - Mailchimp, Email Marketing Benchmarks (updated Dec 2023): https://mailchimp.com/resources/email-marketing-benchmarks/

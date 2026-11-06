@@ -2,6 +2,15 @@
 
 Dated changes to this repo and to the fleet facts it depends on. Newest first. One line per change. Business decisions go in `10-decisions-log/decisions.md`; this file tracks the repo itself.
 
+## 2026-11-05
+- Full sync from Grok Bot (Ryne asked 2026-11-05 for the repos to be an exact copy of what is running now, including current routines). Not limited to the last 7 days.
+- `skills/`: re-copied every skill from the Grok Bot library that belongs in this repo; removed skills that left the library; em dashes swapped for hyphens and non-business email addresses replaced.
+- `bots/`: `INSTRUCTIONS.md` regenerated from each bot's current profile.json; new `ROUTINES.md` per bot with its current schedule map; stale on-disk automation.json copies removed; folders for retired or renamed bots removed (git history keeps them).
+- AGENTS.md and START-HERE.md: the weekly brain repo update now merges into main after `brain_lint.py` passes (Ryne, 2026-11-04).
+- `09-team-bots/bots.md`: Metric added; forge folder renamed blue; Herald and Lingxi folders removed.
+- `bots/forge` (the PM) renamed `bots/blue`; `bots/simon`, `bots/rank`, `bots/metric` added.
+- `10-decisions-log/decisions.md`: 2026-11-04 auto-merge decision.
+
 ## 2026-10-31
 - Weekly brain audit (second run). Covered 2026-10-24 to 2026-10-31. Branch `brain-audit-2026-10-31` is built on `brain-v1`, so it also carries the 2026-10-24 audit commit, which reached `brain-v1` (PR #2) after PR #1 had already merged into `main`. Opened as a PR into `main`. Not merged.
 - NOW.md: IB 500 goal hit (500 on 2026-10-29); project Pages for Blue; manual bug sweeps; Spark transcripts; Basecamp QA to-do rule; 2026-10-27 standup summary.

@@ -28,8 +28,8 @@ Read this page first. It tells you what is in this repo and which one file answe
 | `07-legal-trademark/` | USPTO applications and status |
 | `09-team-bots/` | Which bots work IronBlueprint |
 | `10-decisions-log/` | Business decisions, dated, newest first |
-| `bots/<name>/` | Each IB bot: `INSTRUCTIONS.md` plus memory, reference and routine files (secrets removed). Bots: forge (the IB PM, now named Blue), linus, max, maya, quill, lark, canvas, ironblueprint (the room). `herald` and `lingxi` are retired and kept for history only. Achieve-only bot memory is not in this repo |
-| `skills/<slug>/SKILL.md` | 12 skills (index in README.md) |
+| `bots/<name>/` | Each IB bot: `INSTRUCTIONS.md` plus memory, reference and routine files (secrets removed). Each bot also has `ROUTINES.md`. Bots: blue (the IB PM, formerly forge), simon, linus, max, maya, quill, lark, canvas, rank, metric, ironblueprint (the room). Retired herald and lingxi were removed 2026-11-05. Achieve-only bot memory is not in this repo |
+| `skills/<slug>/SKILL.md` | 18 skills (index in README.md) |
 
 There is no `08-` folder on purpose: finances are excluded (see rules).
 
@@ -69,5 +69,5 @@ There is no `08-` folder on purpose: finances are excluded (see rules).
 
 ## How to change this repo
 - Propose edits as a pull request or diff. Ryne approves. Nothing merges on its own.
-- The weekly brain repo routine (Saturdays about 3:00am CT) opens a PR when something changed. It never merges.
+- The weekly brain repo routine (Saturdays about 3:00am CT) opens a PR when something changed and, since 2026-11-04 (Ryne), merges it into main after `brain_lint.py` passes.
 - Date every new fact (YYYY-MM-DD) and add a line to `LOG.md`.

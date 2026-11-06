@@ -9,7 +9,7 @@ description: >-
 
 Durable playbook for gauging effectiveness and acting. Label **[Documented]** (platform Help) vs **[Opinion]** (operating rule). Never invent account spend/CPA/ROAS/CPL. Prefer official Meta Business Help / Google Ads Help over blogs.
 
-Source deep-dive (2026-10-01): `/workspace/ads-metrics-expertise-2026-10-01.md` — refresh that file + this skill when monthly Meta/Google knowledge routines find material metric changes.
+Source deep-dive (2026-10-01): `/workspace/ads-metrics-expertise-2026-10-01.md` - refresh that file + this skill when monthly Meta/Google knowledge routines find material metric changes.
 
 ## Unified framework
 
@@ -31,7 +31,7 @@ Source deep-dive (2026-10-01): `/workspace/ads-metrics-expertise-2026-10-01.md` 
    High Lost IS (rank) → quality + bids/targets, not vanity CTR.
 ```
 
-**Ignore early in learning [Opinion]:** day-1 CPL/CPA spikes; single-day CTR/CPM noise; QS “—” on new keywords; comparing Meta Instant Form CPL to Google CPA without the same CRM definition.
+**Ignore early in learning [Opinion]:** day-1 CPL/CPA spikes; single-day CTR/CPM noise; QS “-” on new keywords; comparing Meta Instant Form CPL to Google CPA without the same CRM definition.
 
 ---
 
@@ -85,7 +85,7 @@ Impressions ÷ reach. Rising frequency + flat reach + falling CTR + rising cost/
 3. Conversion rate
 4. Search terms + landing pages (esp. Final URL Expansion)
 5. Lost IS (budget) vs Lost IS (rank)
-6. Diagnostics only: Quality Score components, Avg CPC, CTR — QS is **not a KPI / not auction input** **[Documented]**
+6. Diagnostics only: Quality Score components, Avg CPC, CTR - QS is **not a KPI / not auction input** **[Documented]**
 
 ### Primary vs secondary **[Documented]**
 Primary = Conversions column + bidding. Secondary = All conversions only. Soft micros as Primary pollute Smart Bidding.
@@ -114,7 +114,7 @@ Smart Bidding ~**7–14 days** / often ≥~30 conversions to evaluate (often ~50
 
 | Business | Judge on | Platform opt |
 |---|---|---|
-| Local lead gen | Cost per booked outcome | Meta Leads; Maximize leads until CAPI, then qualified leads |
+| Local lead gen (e.g. gym Instant Form → booked eval → enroll) | Cost per booked / enroll; lead→booked % | Meta Leads; Maximize leads until CAPI, then qualified leads |
 | Purchase / SaaS | Purchase ROAS; CAC vs margin | Sales / Maximize conversion value or tROAS |
 
 Never invent account numbers. Monthly knowledge refreshes must re-check metrics decision rules, not only product UI changes.
@@ -124,4 +124,4 @@ Never invent account numbers. Monthly knowledge refreshes must re-check metrics 
 2. Check Learning status before any kill/scale.
 3. Decide with business metrics; use diagnostics only to explain.
 4. Label advice [Documented] vs [Opinion].
-5. For IronBlueprint, also read current agent memory. Do not spend without Ryne's yes. Do not invent account numbers.
+5. For Achieve/IB specifics, also read current agent memory (quality-first Meta, unit econ, no spend without yes).

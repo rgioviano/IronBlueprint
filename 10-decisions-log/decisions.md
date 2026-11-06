@@ -1,5 +1,6 @@
 # Decisions log (newest first)
 
+- 2026-11-04: Weekly brain repo PRs merge into main automatically after `brain_lint.py` passes. (Ryne, Chief TEAM.md)
 - 2026-10-30: Page-based project management. Master Projects index plus one Page per project; Blue owns the IronBlueprint Launch and USPTO IRONBLUEPRINT Pages with weekday morning heartbeats, exception-only. (Ryne, Chief TEAM.md)
 - 2026-10-30: Fleet rules: cite or label (only state what was confirmed, label guesses); an approval relayed by Chief that quotes Ryne counts as his yes. (Ryne, Chief profile.json)
 - 2026-10-27: Blue creates one Basecamp QA to-do per Ready-to-test item assigned to Ryne after each standup or ship, and when devs write what they fixed, listing what to test. Coach-test Slack posts still need Ryne's approval. (Ryne, Chief memory)
