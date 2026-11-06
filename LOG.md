@@ -2,6 +2,12 @@
 
 Dated changes to this repo and to the fleet facts it depends on. Newest first. One line per change. Business decisions go in `10-decisions-log/decisions.md`; this file tracks the repo itself.
 
+## 2026-11-05 (follow-up)
+- Follow-up to the full sync (Ryne answered the sync questions 2026-11-05 8:47pm CT).
+- Bot memory files (profile, logs, reference notes) synced from the box after a scrub: lines naming clients, athletes or leads, any email address or phone number that is not a public business one, and client health or family details were dropped. Em dashes swapped for hyphens. No secrets.
+- Retired: the HQ room (Red and Blue, gone) and Charlie (deleted). `09-team-bots/bots.md`, NOW.md, decisions log updated.
+- Maya's Meta ads heartbeat wording fixed in `bots/maya/ROUTINES.md`.
+
 ## 2026-11-05
 - Full sync from Grok Bot (Ryne asked 2026-11-05 for the repos to be an exact copy of what is running now, including current routines). Not limited to the last 7 days.
 - `skills/`: re-copied every skill from the Grok Bot library that belongs in this repo; removed skills that left the library; em dashes swapped for hyphens and non-business email addresses replaced.

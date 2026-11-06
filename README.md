@@ -46,7 +46,7 @@ Each skill lives in `skills/<slug>/SKILL.md` (some have extra reference files). 
 
 ## Bots index (11 bots and rooms)
 
-Each bot lives in `bots/<slug>/`: `INSTRUCTIONS.md` (its profile.json instructions) and `ROUTINES.md` (its current schedule map, 2026-11-05). Secrets are never included. Retired bots were removed on 2026-11-05.
+Each bot lives in `bots/<slug>/`: `INSTRUCTIONS.md` (its profile.json instructions), `ROUTINES.md` (its current schedule map, 2026-11-05) and, where the bot keeps them, its memory and reference files (synced 2026-11-05 after a client and athlete scrub). Secrets are never included. Retired bots were removed on 2026-11-05.
 
 - `blue` (Blue): Project manager of the IronBlueprint channel. Owns everything IronBlueprint for Ryne Gioviano (ryne@ironblueprint.app; also ryne@iron-blueprint.com). You run th
 - `canvas` (Canvas): ONLY job: for Ryne Gioviano, graphic designer for Achieve Sports Performance and IronBlueprint. Make designed files (image, PDF, slide, simple multi-page). Scop

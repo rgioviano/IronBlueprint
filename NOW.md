@@ -30,6 +30,6 @@ Current priorities and live context only. Replace lines as they go stale; histor
 - Copy default: "AI programming engine for coaches". Never "an app", "software" or "a platform".
 
 ## Who to ask
-- Blue (PM, formerly Forge), Linus (engineering, read-only), Simon (QA), Max (sales), Maya (marketing), Chief (routing). Max and Maya report through Blue for IronBlueprint work (2026-10-21). Blue and Red share the HQ room (created 2026-10-20).
+- Blue (PM, formerly Forge), Linus (engineering, read-only), Simon (QA), Max (sales), Maya (marketing), Chief (routing). Max and Maya report through Blue for IronBlueprint work (2026-10-21). The HQ room Blue and Red shared (created 2026-10-20) is gone (Ryne, 2026-11-05).
 
 Sources: `WS/ib-500-tally-log.md` (2026-10-29); `WS/ib-project-pulse-2026-10-27.md`; `WS/ib-meeting-ingest-heartbeat.log`; Chief memory 2026-10-27 (Blue QA to-dos, Spark transcripts, manual bug sweeps); Chief TEAM.md (Page-based project management, 2026-10-30); Chief TEAM.md and IDS.md (2026-10-21 renames, reporting lines, HQ room, ib500 script); shared memory 2026-10-22 (Nov 30 launch) and 2026-10-13 (trademark suspension); `WS/ib-launch-readiness-2026-10-19.md`; `WS/ib-outage-log.md`; Simon profile.json; Chief tomorrow-priorities.md (2026-10-23); Chief chat 2026-10-17; `06-engineering/security-status.md`.
