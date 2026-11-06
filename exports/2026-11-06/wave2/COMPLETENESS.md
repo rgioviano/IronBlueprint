@@ -1,0 +1,152 @@
+# IronBlueprint 2026-11-06-wave2 export completeness
+
+privacy_ready: false
+wave: 2026-11-06-wave2
+SKILL POLICY: every enabled skill includes full instructions when readable (Chief for public plugins after secret neutrality; custom after semantic inspection + section scrub). Whole-skill omission only if unreadable or unsalvageable sensitive, with reason. Never claim full when omitted.
+FIELDS: memories/user_facts/instructions/routines scanned; secrets redacted.
+
+## Bots
+- rank coverage=partial_where_omissions_listed
+- max coverage=partial_where_omissions_listed
+- quill coverage=partial_where_omissions_listed
+- maya coverage=partial_where_omissions_listed
+- lark coverage=partial_where_omissions_listed
+- blue coverage=partial_where_omissions_listed
+
+## Omissions (counts only)
+- Rank: mem_drop=0 fact_drop=0 skills_listed=366 full_kept=306 section_scrubbed=58 omit_unreadable=2 omit_sensitive=0 plugin_full=264 custom_full=100 section_redactions=311 coverage=partial_where_omissions_listed
+  - omit canvas: unreadable_no_source_body
+  - omit cursor-team-kit/pr-review-canvas: unreadable_no_source_body
+- Max: mem_drop=55 fact_drop=2 skills_listed=451 full_kept=328 section_scrubbed=90 omit_unreadable=33 omit_sensitive=0 plugin_full=257 custom_full=161 section_redactions=565 coverage=partial_where_omissions_listed
+  - omit browser-use: unreadable_no_source_body
+  - omit canva-branded-presentation: unreadable_no_source_body
+  - omit canva-classroom-helper: unreadable_no_source_body
+  - omit canva-translate-design: unreadable_no_source_body
+  - omit canva-presentation-time-fitting: unreadable_no_source_body
+  - omit canva-brand-check: unreadable_no_source_body
+  - omit canva-bulk-create: unreadable_no_source_body
+  - omit canva-cli: unreadable_no_source_body
+  - omit canva-edit-design: unreadable_no_source_body
+  - omit canva-design-feedback: unreadable_no_source_body
+  - omit canva-implement-feedback: unreadable_no_source_body
+  - omit canva-resize-for-social-media: unreadable_no_source_body
+  - omit composio-activity-summary: unreadable_no_source_body
+  - omit composio-mcp: unreadable_no_source_body
+  - omit pr-review-canvas: unreadable_no_source_body
+  - omit firecrawl: unreadable_no_source_body
+  - omit hf-mcp: unreadable_no_source_body
+  - omit nvidia-skill-finder: unreadable_no_source_body
+  - omit reproduce-and-fix-issues: unreadable_no_source_body
+  - omit setup-benny: unreadable_no_source_body
+  - omit triage-issue-reports: unreadable_no_source_body
+  - omit typescript-best-practices: unreadable_no_source_body
+  - omit unslop: unreadable_no_source_body
+  - omit why: unreadable_no_source_body
+  - omit benchmark-agents: unreadable_no_source_body
+  - omit benchmark-e2e: unreadable_no_source_body
+  - omit benchmark-sandbox: unreadable_no_source_body
+  - omit benchmark-testing: unreadable_no_source_body
+  - omit plugin-audit: unreadable_no_source_body
+  - omit release: unreadable_no_source_body
+  - omit vercel-plugin-eval: unreadable_no_source_body
+  - omit vercel-react-best-practices: unreadable_no_source_body
+  - omit X MCP guide: unreadable_no_source_body
+- Quill: mem_drop=16 fact_drop=0 skills_listed=420 full_kept=328 section_scrubbed=90 omit_unreadable=2 omit_sensitive=0 plugin_full=257 custom_full=161 section_redactions=565 coverage=partial_where_omissions_listed
+  - omit canvas: unreadable_no_source_body
+  - omit pr-review-canvas (pr-review-canvas plugin): unreadable_no_source_body
+- Maya: mem_drop=21 fact_drop=1 skills_listed=421 full_kept=305 section_scrubbed=90 omit_unreadable=26 omit_sensitive=0 plugin_full=234 custom_full=161 section_redactions=565 coverage=partial_where_omissions_listed
+  - omit benchmark-agents: unreadable_no_source_body
+  - omit benchmark-e2e: unreadable_no_source_body
+  - omit benchmark-sandbox: unreadable_no_source_body
+  - omit benchmark-testing: unreadable_no_source_body
+  - omit branded-presentation: unreadable_no_source_body
+  - omit browser-use: unreadable_no_source_body
+  - omit canvas: unreadable_no_source_body
+  - omit classroom-helper: unreadable_no_source_body
+  - omit composio-activity-summary: unreadable_no_source_body
+  - omit composio-mcp: unreadable_no_source_body
+  - omit design-translation: unreadable_no_source_body
+  - omit generate-deck: unreadable_no_source_body
+  - omit hf-mcp: unreadable_no_source_body
+  - omit nvidia-skill-finder: unreadable_no_source_body
+  - omit plugin-audit: unreadable_no_source_body
+  - omit pr-review-canvas: unreadable_no_source_body
+  - omit presentation-time-fitting: unreadable_no_source_body
+  - omit release: unreadable_no_source_body
+  - omit reproduce-and-fix-issues: unreadable_no_source_body
+  - omit setup-benny: unreadable_no_source_body
+  - omit triage-issue-reports: unreadable_no_source_body
+  - omit typescript-best-practices: unreadable_no_source_body
+  - omit unslop: unreadable_no_source_body
+  - omit upstream: unreadable_no_source_body
+  - omit vercel-plugin-eval: unreadable_no_source_body
+  - omit why: unreadable_no_source_body
+- Lark: mem_drop=6 fact_drop=2 skills_listed=459 full_kept=336 section_scrubbed=90 omit_unreadable=33 omit_sensitive=0 plugin_full=265 custom_full=161 section_redactions=565 coverage=partial_where_omissions_listed
+  - omit benchmark-agents: unreadable_no_source_body
+  - omit benchmark-e2e: unreadable_no_source_body
+  - omit benchmark-sandbox: unreadable_no_source_body
+  - omit benchmark-testing: unreadable_no_source_body
+  - omit browser-use: unreadable_no_source_body
+  - omit canva-brand-check: unreadable_no_source_body
+  - omit canva-branded-presentation: unreadable_no_source_body
+  - omit canva-bulk-create: unreadable_no_source_body
+  - omit canva-classroom-helper: unreadable_no_source_body
+  - omit canva-cli: unreadable_no_source_body
+  - omit canva-design-feedback: unreadable_no_source_body
+  - omit canva-edit-design: unreadable_no_source_body
+  - omit canva-implement-feedback: unreadable_no_source_body
+  - omit canva-presentation-time-fitting: unreadable_no_source_body
+  - omit canva-resize-for-social-media: unreadable_no_source_body
+  - omit canva-translate-design: unreadable_no_source_body
+  - omit canvas: unreadable_no_source_body
+  - omit composio-activity-summary: unreadable_no_source_body
+  - omit composio-mcp: unreadable_no_source_body
+  - omit firecrawl: unreadable_no_source_body
+  - omit hf-mcp: unreadable_no_source_body
+  - omit nvidia-skill-finder: unreadable_no_source_body
+  - omit plugin-audit: unreadable_no_source_body
+  - omit pr-review-canvas: unreadable_no_source_body
+  - omit release: unreadable_no_source_body
+  - omit reproduce-and-fix-issues: unreadable_no_source_body
+  - omit setup-benny: unreadable_no_source_body
+  - omit triage-issue-reports: unreadable_no_source_body
+  - omit typescript-best-practices: unreadable_no_source_body
+  - omit unslop: unreadable_no_source_body
+  - omit vercel-plugin-eval: unreadable_no_source_body
+  - omit vercel-react-best-practices: unreadable_no_source_body
+  - omit why: unreadable_no_source_body
+- Blue: mem_drop=27 fact_drop=2 skills_listed=451 full_kept=336 section_scrubbed=90 omit_unreadable=25 omit_sensitive=0 plugin_full=265 custom_full=161 section_redactions=565 coverage=partial_where_omissions_listed
+  - omit benchmark-agents: unreadable_no_source_body
+  - omit benchmark-e2e: unreadable_no_source_body
+  - omit benchmark-sandbox: unreadable_no_source_body
+  - omit benchmark-testing: unreadable_no_source_body
+  - omit branded-presentation: unreadable_no_source_body
+  - omit browser-use: unreadable_no_source_body
+  - omit classroom-helper: unreadable_no_source_body
+  - omit composio-activity-summary: unreadable_no_source_body
+  - omit composio-mcp: unreadable_no_source_body
+  - omit design-translation: unreadable_no_source_body
+  - omit generate-deck: unreadable_no_source_body
+  - omit hf-mcp: unreadable_no_source_body
+  - omit nvidia-skill-finder: unreadable_no_source_body
+  - omit plugin-audit: unreadable_no_source_body
+  - omit pr-review-canvas: unreadable_no_source_body
+  - omit presentation-time-fitting: unreadable_no_source_body
+  - omit release: unreadable_no_source_body
+  - omit reproduce-and-fix-issues: unreadable_no_source_body
+  - omit setup-benny: unreadable_no_source_body
+  - omit triage-issue-reports: unreadable_no_source_body
+  - omit typescript-best-practices: unreadable_no_source_body
+  - omit unslop: unreadable_no_source_body
+  - omit upstream: unreadable_no_source_body
+  - omit vercel-plugin-eval: unreadable_no_source_body
+  - omit why: unreadable_no_source_body
+
+## Files
+- `bots/blue/export/grok-bot-export-blue.json` bytes=9853109
+- `bots/lark/export/grok-bot-export-lark.json` bytes=9811926
+- `bots/max/export/grok-bot-export-max.json` bytes=9756980
+- `bots/maya/export/grok-bot-export-maya.json` bytes=9422066
+- `bots/quill/export/grok-bot-export-quill.json` bytes=9684149
+- `bots/rank/export/grok-bot-export-rank.json` bytes=9476969
+- `scripts/brain_lint.py` bytes=9117
