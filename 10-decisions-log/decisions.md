@@ -1,5 +1,6 @@
 # Decisions log (newest first)
 
+- 2026-11-05: The HQ room (Red and Blue) is gone. Charlie (CFO bot) is deleted. Bot memory files are synced to this repo after a client scrub. (Ryne, Chief chat 2026-11-05 8:47pm CT)
 - 2026-11-04: Weekly brain repo PRs merge into main automatically after `brain_lint.py` passes. (Ryne, Chief TEAM.md)
 - 2026-10-30: Page-based project management. Master Projects index plus one Page per project; Blue owns the IronBlueprint Launch and USPTO IRONBLUEPRINT Pages with weekday morning heartbeats, exception-only. (Ryne, Chief TEAM.md)
 - 2026-10-30: Fleet rules: cite or label (only state what was confirmed, label guesses); an approval relayed by Chief that quotes Ryne counts as his yes. (Ryne, Chief profile.json)
