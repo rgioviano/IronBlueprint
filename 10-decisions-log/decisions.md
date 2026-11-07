@@ -1,5 +1,9 @@
 # Decisions log (newest first)
 
+- 2026-11-06: Bot names are styled "Name / Title" (for example Blue / IronBlueprint). (Ryne, shared memory)
+- 2026-11-02: HOLD on acting on the two new Critical findings (SEC-18, SEC-19) from the November scan; discuss at the Tue 2026-11-03 IronBlueprint meeting first. No rotation, branch cleanup or Suffescom ask until Ryne says otherwise. (Ryne, voice, Chief chat)
+- 2026-10-30: IB 500 tally and nightly pace routines deleted ("We're now done with the 500 programs"). Bug filing from #ironblueprint kept as its own routine. (Ryne, Blue chat)
+- 2026-10-30: #bugs checked weekdays only, about 11am and 8pm CT, quiet when nothing is new. Meeting-notes pull retries through the day instead of one check. (Ryne, Blue chat)
 - 2026-11-05: The HQ room (Red and Blue) is gone. Charlie (CFO bot) is deleted. Bot memory files are synced to this repo after a client scrub. (Ryne, Chief chat 2026-11-05 8:47pm CT)
 - 2026-11-04: Weekly brain repo PRs merge into main automatically after `brain_lint.py` passes. (Ryne, Chief TEAM.md)
 - 2026-10-30: Page-based project management. Master Projects index plus one Page per project; Blue owns the IronBlueprint Launch and USPTO IRONBLUEPRINT Pages with weekday morning heartbeats, exception-only. (Ryne, Chief TEAM.md)
@@ -31,9 +35,11 @@
 - 2026-07-02: Nexus AI Plan v4 accepted by email.
 
 ## Open questions
+- What was decided about SEC-18 and SEC-19 at the 2026-11-03 IronBlueprint meeting? Is the HOLD lifted, and who rotates what?
+- Google Play trader status declaration is due 2027-02-01. Who completes it (Ryne or Suffescom)?
 - When was Simon (QA) created, and has Ryne given Simon a dedicated test coach login yet? Simon is blocked without one. (Still open 2026-10-31: no answer found.)
 - Has Suffescom sent its outage write-up, and which MongoDB cluster does prod run on? (Asked 2026-10-24; no answer found.)
-- Now that IB 500 hit 500 on 2026-10-29, has model training started, and is the Phase Five gate considered met?
-- Did the sign-up, invites and email fix (target 2026-10-28) ship and pass Ryne's test?
+- Now that IB 500 hit 500 on 2026-10-29, has model training started, and is the Phase Five gate considered met? (2026-11-02: the Nexus developer said he would "start working on it" without naming the work.)
+- Did the sign-up, invites and email fix (target 2026-10-28) ship and pass Ryne's test? (Not confirmed as of 2026-10-31: the QA to-do was still open.)
 
-Sources: Chief TEAM.md 2026-10-30; Chief memory 2026-10-27; Chief TEAM.md change log 2026-10-21; shared memory 2026-10-22; `WS/ib-launch-readiness-2026-10-19.md`; Simon profile.json; Forge (now Blue) memory profile.md and logs; Chief chat 2026-10-17.
+Sources: Chief TEAM.md 2026-10-30; Chief memory 2026-10-27; Chief TEAM.md change log 2026-10-21; shared memory 2026-10-22; `WS/ib-launch-readiness-2026-10-19.md`; Simon profile.json; Forge (now Blue) memory profile.md and logs; Chief chat 2026-10-17. Blue chat 2026-10-30 to 2026-11-02; Chief chat 2026-11-02 (SEC HOLD); Chief debrief 2026-11-04 (Google Play); shared memory 2026-11-06.

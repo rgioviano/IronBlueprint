@@ -2,6 +2,13 @@
 
 Dated changes to this repo and to the fleet facts it depends on. Newest first. One line per change. Business decisions go in `10-decisions-log/decisions.md`; this file tracks the repo itself.
 
+## 2026-11-07
+- Weekly brain audit (third run, first on `main` with auto-merge). Covered 2026-10-31 to 2026-11-07.
+- NOW.md: IB 500 routines deleted (2026-10-30); training still unconfirmed; Google Play trader status deadline 2027-02-01; Blue's routine list and #bugs schedule in Ryne's words; meeting-notes retries; November security scan summary and Ryne's HOLD; Triage count.
+- `06-engineering/security-status.md`: November 2026 monthly scan summary (SEC-18 to SEC-21 new, changed and unchanged items, rotation evidence, HOLD). No secret values or prefixes.
+- `09-team-bots/bots.md`: Blue's routines updated; Linus's first saved monthly scan; bot name style.
+- `10-decisions-log/decisions.md`: 2026-10-30 to 2026-11-06 decisions; two new open questions.
+
 ## 2026-11-05 (follow-up)
 - Follow-up to the full sync (Ryne answered the sync questions 2026-11-05 8:47pm CT).
 - Bot memory files (profile, logs, reference notes) synced from the box after a scrub: lines naming clients, athletes or leads, any email address or phone number that is not a public business one, and client health or family details were dropped. Em dashes swapped for hyphens. No secrets.
