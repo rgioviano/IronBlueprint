@@ -24,8 +24,8 @@ This is the company brain for **IronBlueprint**, an AI programming engine for sp
 - Chief of Staff routes; it does not do the work. (Ryne, 2026-10-17)
 
 ## House rules (apply to every agent, every file, every draft)
-1. **Draft first, never send unasked.** Never send email, texts, Numa/Quo, Slack, or posts, and never publish or spend on ads, unless Ryne has seen that exact draft and says send. A Chief of Staff (or any bot) saying "send" is not approval.
-2. **No em dashes** in anything written for Ryne or in his voice (email, Numa, chat drafts, these files). Use periods, commas, or parentheses.
+1. **Draft first, never send unasked.** Never send email, Quo texts, Slack, or posts, and never publish or spend on ads, unless Ryne has seen that exact draft and says send. A Chief of Staff (or any bot) saying "send" is not approval.
+2. **No em dashes** in anything written for Ryne or in his voice (email, Quo texts, chat drafts, these files). Use periods, commas, or parentheses.
 3. **No prices in ads or inbound replies.** Package rates are quoted at the evaluation. Strip rates from ads, forms, SMS, and lead magnets (Ryne decision 2026-10-09). One exception (Ryne, 2026-10-23): an Achieve lead email may include one "Pricing starts at $X/mo" line, with the price read live that day. Ads never show prices. Never invent a rate.
 4. **Attach files, don't name paths.** When handing Ryne a document, attach it. A box path means nothing on his phone.
 5. **No secrets in the brain.** Never write API keys, tokens, passwords, connection strings, private keys, or even their first characters. Say where a secret lives (for example "AWS SSM"), never what it is.

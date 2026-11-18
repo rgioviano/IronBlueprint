@@ -4,8 +4,9 @@ after an IronBlueprint dev meeting, before it goes to Ryne and again right befor
 
 Checks (one line each, "CODE line N: detail"):
   NO_CHANNEL_TAG          first non-empty line does not start with <!channel>
-  MISSING_SECTION         "Ready to test now" or "Coming soon, don't test yet" missing, or out of order
-  EMPTY_SECTION           a section has no bullets (the bullet "None this time" counts)
+  MISSING_SECTION         "Ready to test now" missing
+  COMING_SOON_SECTION     any "Coming soon" section (Ryne 2026-11-10: only list what to test now)
+  NOTHING_TO_TEST         Ready has no real bullets; skip the draft instead of posting
   NO_PASS_CRITERIA        a Ready bullet has no "should" / "you should see" / "pass:"
   EMOJI                   emoji character or :shortcode: (times like 9:30 are fine)
   EM_DASH                 U+2014 em dash
@@ -19,7 +20,7 @@ Checks (one line each, "CODE line N: detail"):
 
 Usage: ib_coach_test_lint.py <draft.md> [--approved <approved.md>]
 Offline, standard library only, never posts.
-Exit code: 0 good ("OK coach test post: N ready, M coming soon"), 1 problem lines, 2 bad input.
+Exit code: 0 good ("OK coach test post: N ready"), 1 problem lines, 2 bad input.
 """
 import argparse, difflib, re, sys
 
@@ -78,13 +79,10 @@ def lint(text):
             bullets[section].append((n, m.group(1).strip()))
     if ready_n is None:
         add("MISSING_SECTION", 0, 'missing "Ready to test now"')
-    if soon_n is None:
-        add("MISSING_SECTION", 0, "missing \"Coming soon, don't test yet\"")
-    if ready_n and soon_n and soon_n < ready_n:
-        add("MISSING_SECTION", soon_n, '"Coming soon" appears before "Ready to test now"')
-    for key, hn, name in (("ready", ready_n, "Ready to test now"), ("soon", soon_n, "Coming soon")):
-        if hn and not bullets[key]:
-            add("EMPTY_SECTION", hn, f'"{name}" has no bullets (use "None this time")')
+    if soon_n is not None or any(re.search(r"coming soon", l, re.I) for _, l in nonempty):
+        add("COMING_SOON_SECTION", soon_n or 0, 'remove "Coming soon" content; only list what to test now (Ryne 2026-11-10)')
+    if ready_n and not [b for _, b in bullets["ready"] if b.rstrip(". ").lower() != "none this time"]:
+        add("NOTHING_TO_TEST", ready_n, "nothing ready to test; skip the draft (Ryne 2026-11-10)")
     for n, b in bullets["ready"]:
         if b.rstrip(". ").lower() != "none this time" and not PASS_RX.search(b):
             add("NO_PASS_CRITERIA", n, "bullet needs a pass condition (should / you should see / pass:)")
@@ -128,7 +126,7 @@ def main(argv=None):
         print(f"SUMMARY {len(probs)} problem(s)")
         return 1
     real = lambda k: sum(1 for _, b in bullets[k] if b.rstrip(". ").lower() != "none this time")
-    print(f"OK coach test post: {real('ready')} ready, {real('soon')} coming soon")
+    print(f"OK coach test post: {real('ready')} ready")
     return 0
 
 

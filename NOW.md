@@ -1,6 +1,21 @@
-# NOW: IronBlueprint (as of 2026-10-31)
+# NOW: IronBlueprint (as of 2026-11-18)
 
 Current priorities and live context only. Replace lines as they go stale; history goes in LOG.md and `10-decisions-log/`.
+
+
+## Status as of 2026-11-16 (Blue's outcome file; added 2026-11-18)
+- **Launch target is still Mon 2026-11-30** (Launch Page, set by Ryne 2026-10-22). It is a target, not proven readiness. No later change is recorded.
+- Dev-reported, not independently verified (Nov 10 meeting): coach and athlete creation, invites, onboarding and program validation pass the devs' checks.
+- **New-account registration (Stripe) was blocked:** the devs needed Stripe Sandbox Mode enabled. A Sandbox was created 2026-11-16 (Chief promises watch, 2026-11-17); the live registration test result is not recorded yet.
+- Staging to production: several frontend-website and nodejs-backend PRs merged Nov 10 to Nov 13. Merges are not production verification; nothing is confirmed live by QA or Ryne yet.
+- App Store policy terms accepted by Ryne (2026-11-16 and again 2026-11-17).
+- **New security issue (2026-11-15 to 11-16):** a frontend-website commit went straight to main without a PR and hardcodes the invite decryption key and secret in the sign-up page. Ryne asked the devs (2026-11-16) to move decryption to the backend, rotate the key and secret, use PRs, and confirm whether it reached production. No dev reply recorded as of 2026-11-16. See `06-engineering/security-status.md`.
+- `PROGRAMMING_RULES_ENABLED` is still off in production per the Launch Page; it blocks BUG-23, 29, 30, 31 and 36. SEC-18 and SEC-19 remain on Ryne's HOLD (since 2026-11-02).
+- New feature request (Ryne, 2026-11-14 to 11-15): make the evaluation optional for AI programming; to be scoped with the devs.
+- Coach test posts (Ryne, 2026-11-10): list only what is ready to test now; no "Coming soon" section (`scripts/blue/ib_coach_test_lint.py` enforces it).
+- IB 500 means 500 Nexus-generated programs reviewed with coach feedback (an internal RL-labeling goal), not users or revenue.
+
+Sources: `shared/chief/ib-outcome-context.md` (Blue, 2026-11-16 about 10:35am CT); Chief notes TEAM.md promises watch 2026-11-16 and 2026-11-17; `ib_coach_test_lint.py` docstring.
 
 ## Launch
 - **Public launch: Monday 2026-11-30**, still planned (Ryne, 2026-10-17; reconfirmed 2026-10-22). Older references to a Nov 1 launch are outdated.

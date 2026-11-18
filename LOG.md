@@ -2,6 +2,13 @@
 
 Dated changes to this repo and to the fleet facts it depends on. Newest first. One line per change. Business decisions go in `10-decisions-log/decisions.md`; this file tracks the repo itself.
 
+## 2026-11-18
+- Fleet sync from the box: brain sync 2026-11-18 (Ryne asked 2026-11-18 12:00pm CT for the latest fleet info pushed to GitHub). First update since the 2026-11-06 export merge.
+- NOW.md: launch status as of Blue's 2026-11-16 outcome file (Nov 30 target unchanged, Stripe registration, staging to production, new hardcoded-key issue).
+- `06-engineering/security-status.md`: hardcoded invite key issue and open mediums added (no secret values).
+- `bots/*/INSTRUCTIONS.md` regenerated from profile.json ("Name / Title" names). `scripts/blue/ib_coach_test_lint.py` refreshed (no "Coming soon" section, 2026-11-10).
+- Shared skills (`achieve-mail`, `achieve-writing-style`, `sales-nurture-3-7-30`) now say Quo instead of Numa. AGENTS.md, START-HERE.md, README index, bots and decisions updated.
+
 ## 2026-11-05 (follow-up)
 - Follow-up to the full sync (Ryne answered the sync questions 2026-11-05 8:47pm CT).
 - Bot memory files (profile, logs, reference notes) synced from the box after a scrub: lines naming clients, athletes or leads, any email address or phone number that is not a public business one, and client health or family details were dropped. Em dashes swapped for hyphens. No secrets.

@@ -1,10 +1,10 @@
 # Simon
 
-- Profile name: Simon · quality assurance
+- Profile name: Simon / Quality Assurance
 - Title: (empty)
 - Agent id: 48b8dd87-193d-4128-8463-4a6f523dc8fa
 - Kind: bot
-- Source: profile.json description on the box, synced 2026-11-05 (em dashes swapped for hyphens; secrets never included)
+- Source: profile.json description on the box, synced 2026-11-18 (em dashes swapped for hyphens; secrets never included)
 
 ## Instructions
 

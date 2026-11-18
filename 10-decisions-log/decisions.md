@@ -1,5 +1,13 @@
 # Decisions log (newest first)
 
+- 2026-11-17: Numa retired; only Quo is referenced going forward (affects shared sales and writing skills mirrored here). (Ryne, Chief chat t213u, t216u)
+- 2026-11-16: Ryne asked the devs to move invite decryption to the backend, rotate the hardcoded key and secret, use PRs, and confirm production status. (Ryne in IB Slack #web-app, per Blue's outcome file)
+- 2026-11-14: Make the evaluation optional for AI programming (feature request, to be scoped with the devs). (Ryne, per Blue's outcome file)
+- 2026-11-10: Coach test posts list only what is ready to test now; no "Coming soon" section. (Ryne, `ib_coach_test_lint.py`)
+- 2026-11-10: Fleet governance split: Chief routes; Alfred advises only; Token Officer handles cost; Dr. Eggbot builds bots. (Ryne, Alfred chat)
+- 2026-11-08: Linus is IronBlueprint (blue avatar), not shared. Bot avatar convention adopted fleet-wide. (Ryne, Chief chat t80u to t89u)
+- 2026-11-07: All research goes straight to Scout. (Ryne, Chief TEAM.md)
+
 - 2026-11-05: The HQ room (Red and Blue) is gone. Charlie (CFO bot) is deleted. Bot memory files are synced to this repo after a client scrub. (Ryne, Chief chat 2026-11-05 8:47pm CT)
 - 2026-11-04: Weekly brain repo PRs merge into main automatically after `brain_lint.py` passes. (Ryne, Chief TEAM.md)
 - 2026-10-30: Page-based project management. Master Projects index plus one Page per project; Blue owns the IronBlueprint Launch and USPTO IRONBLUEPRINT Pages with weekday morning heartbeats, exception-only. (Ryne, Chief TEAM.md)
