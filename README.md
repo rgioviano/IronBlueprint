@@ -23,11 +23,11 @@ Sources: this folder.
 
 ## Skills index (18 skills)
 
-Each skill lives in `skills/<slug>/SKILL.md` (some have extra reference files). Synced from Ryne's Grok Bot skill library on 2026-11-05. Em dashes were swapped for hyphens and email addresses that are not Ryne's business addresses were replaced, per the repo rules.
+Each skill lives in `skills/<slug>/SKILL.md` (some have extra reference files). Synced from Ryne's Grok Bot skill library on 2026-11-05; changed skills refreshed 2026-11-18. Em dashes were swapped for hyphens and email addresses that are not Ryne's business addresses were replaced, per the repo rules.
 
-- `knowledge-base-audit`: End-of-day audit that proposes brain edits as a diff for Ryne's approval (the weekly update auto-merges after lint, 2026-11-04).
+- `knowledge-base-audit`: End-of-day audit that proposes brain edits as a diff for Ryne's approval (since 2026-11-07 the weekly update waits for Ryne's yes).
 - `achieve-mail`: Use when Ryne runs /achieve-mail or asks about Achieve/IronBlueprint inbox, triage, leads, or drafting client email. Gmail only (work + contact + IronBlueprint connectors); never Spark.
-- `achieve-writing-style`: Use when drafting Achieve or IronBlueprint email or Numa texts, and after Ryne sends so this skill is rewritten from what he actually sent.
+- `achieve-writing-style`: Use when drafting Achieve or IronBlueprint email or Quo texts, and after Ryne sends so this skill is rewritten from what he actually sent.
 - `ad-metrics-decisions`: Use this when auditing Meta or Google ads performance, choosing kill/hold/scale/refresh actions, explaining which metrics matter vs vanity, or updating monthly ads knowledge with metrics decision rules.
 - `ads-audit`: Use when the user wants a Google Ads or Meta audit. Propose only. Findings must clear a money bar and read like a decision, not a dashboard.
 - `cold-email-reply-rules`: Use when drafting Achieve or IronBlueprint cold first-touch or re-engage sales emails (not booked-eval replies, not pricing replies to inbound questions).
@@ -39,7 +39,7 @@ Each skill lives in `skills/<slug>/SKILL.md` (some have extra reference files). 
 - `ironblueprint-programming-logic`: Use when Strength Coach (or any bot) designs or redesigns a program using IronBlueprint Nexus logic - classify athlete vs general, then apply codebase session order, pairings, overhead, taper, and load rules to make decisions.
 - `meta-google-ads-playbook`: Use when building, diagnosing, scaling, killing or rewriting Meta Ads or Google Ads for Achieve Sports Performance or IronBlueprint, when writing Meta ad text fields (Primary, Headline, Description, CTA), or when the monthly meta-ads-knowledge-refresh or google-ads-knowledge-refresh runs.
 - `mozi-sales-frameworks`: Use when drafting Achieve or IronBlueprint sales calls, closes, pricing diagnostics, partner offers, pre-call VSLs, or nurture that sits next to 3-7-30 - Mozi standing frameworks including pre-call leverage.
-- `sales-nurture-3-7-30`: Use when drafting Achieve or IronBlueprint sales email, Numa, or lead nurture sequences - value sequence, not chase.
+- `sales-nurture-3-7-30`: Use when drafting Achieve or IronBlueprint sales email, Quo texts, or lead nurture sequences - value sequence, not chase.
 - `security-audit`: Security guidance and vulnerability review for codebases, APIs, services, CLI tools, libraries, and daemons. Use for security questions, focused reviews, vulnerability research, security audits, or pen tests. Run the complete workflow only for explicit codebase audit or pen-test requests, full/comprehensive/end-to-end reviews, or requested report artifacts.
 - `seo-audit`: Use when the user wants an SEO audit: Search Console, indexing, on-page, AI traffic, scored findings delivered like an agency deck - not a dump.
 - `van-westendorp-pricing`: Use this when pricing a new offer, program, membership, product, or price change, before picking a number. Runs the four-question Van Westendorp survey (from Alex Hormozi), sliced by customer segment.

@@ -1,10 +1,10 @@
 # Blue
 
-- Profile name: Blue · IronBlueprint
+- Profile name: Blue / IronBlueprint
 - Title: (empty)
 - Agent id: cceeaf4d-4c7b-45fb-b736-9be1fdf15b88
 - Kind: bot
-- Source: profile.json description on the box, synced 2026-11-05 (em dashes swapped for hyphens; secrets never included)
+- Source: profile.json description on the box, synced 2026-11-18 (em dashes swapped for hyphens; secrets never included)
 
 ## Instructions
 

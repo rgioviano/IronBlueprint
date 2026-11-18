@@ -13,11 +13,13 @@ Full fleet: personal-brain/08-bot-fleet/fleet.md.
 | Splice | Video editor for IB edits on request. Never posts |
 | Penny | IB demo prep cards from the morning brief |
 | Metric | Metric deep dives, experiment reads and charts across Achieve and IronBlueprint. On demand. Never edits product code or ships deploys (profile dated 2026-11-03) |
-| Chief of Staff | Router only: hands drafts and ops to the owner (Blue for IB), then checks and relays (Ryne, 2026-10-21). Steps in on escalations or cross-brand conflicts |
+| Chief of Staff | New Chief agent since 2026-11-07 (`88d94ba3`); coordinates and routes work, bots may still talk to Ryne in their own lanes (2026-11-13). Router only: hands drafts and ops to the owner (Blue for IB), then checks and relays (Ryne, 2026-10-21). Steps in on escalations or cross-brand conflicts |
 
 - Name warning: before 2026-10-19 "Forge" meant the IronBlueprint PM (now Blue). Today Forge is Ryne's personal nutrition coach and does no IB work. The old `bots/forge/` folder (the PM) was renamed `bots/blue/` on 2026-11-05. Each bot's routines: `bots/<name>/ROUTINES.md`.
 - HQ room (Red and Blue, created 2026-10-20): RETIRED 2026-11-05, the room is gone (Ryne). Do not route work to it.
 - Lingxi and Herald are retired; Linus replaced Lingxi's lane. Their folders were removed from this repo on 2026-11-05 (git history keeps them).
 - Cloud agents and one-offs get no room seat.
+- Linus is an IronBlueprint bot (blob, blue avatar; Ryne 2026-11-08), not a shared one.
+- Research goes straight to Scout (2026-11-07); Perplexity is Scout only (2026-11-11). Alfred (read-only fleet audit advisor) and Dr. Eggbot (builds bots) are fleet roles, not IB lanes (2026-11-10).
 
 Sources: Chief TEAM.md (updated 2026-10-30); Chief memory 2026-10-27; Chief profile.json; `WS/fleet/IDS.md` (2026-10-21); Simon and Splice profile.json; Chief chat 2026-10-17 (t456 to t470).; Chief TEAM.md (updated 2026-11-04 evening); Metric profile.json.; Ryne, Chief chat 2026-11-05 8:47pm CT (HQ room gone).

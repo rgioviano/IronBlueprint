@@ -2,6 +2,12 @@
 
 As of 2026-10-17. Found by Linus (read-only audit), verified by Forge. No secret values or prefixes appear here or should ever be added. Full findings: ironblueprint-agent-prep/suggestions.md on the box (it contains truncated prefixes; keep it off GitHub).
 
+
+## Update 2026-11-18 (from Blue's 2026-11-16 outcome file)
+- NEW: a frontend-website commit pushed straight to main (no PR) hardcodes the invite decryption key and secret in the sign-up page. Ryne asked the devs on 2026-11-16 to move decryption to the backend, rotate the key and secret, use PRs, and say whether it is in production. No reply recorded as of 2026-11-16. No secret values are stored here.
+- Still open with no fix confirmation: the mediums from Linus's nodejs-backend #15 review (cross-gym invite wipe on remove; remove() missing a headCoachId scope) and SEC-19 (unauthenticated removeMultiple). SEC-18 and SEC-19 stay on Ryne's HOLD (2026-11-02).
+- Owners: Blue (PM) and Linus (read-only engineer). Suffescom makes all code changes.
+
 ## Critical (7)
 | ID | Plain English | Status |
 |---|---|---|

@@ -69,5 +69,5 @@ There is no `08-` folder on purpose: finances are excluded (see rules).
 
 ## How to change this repo
 - Propose edits as a pull request or diff. Ryne approves. Nothing merges on its own.
-- The weekly brain repo routine (Saturdays about 3:00am CT) opens a PR when something changed and, since 2026-11-04 (Ryne), merges it into main after `brain_lint.py` passes.
+- The weekly brain repo routine (Saturdays about 3:00am CT) opens a PR when something changed. Ryne's 2026-11-04 rule let it merge after `brain_lint.py` passes; since the Chief replacement (2026-11-07) the job prepares proposed changes and waits for Ryne's yes before anything is pushed or merged (Chief, 2026-11-18). The 2026-11-18 sync PR is left open for Ryne's review.
 - Date every new fact (YYYY-MM-DD) and add a line to `LOG.md`.
